@@ -1,0 +1,62 @@
+#middle-section {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 2px dotted blue;
+    margin: 10px;
+    text-align: justify;
+}
+section{
+    border: 2px dotted black;
+    display: inline-block;
+}
+section[tercer-section="true"]{
+    height: 300px;
+}
+footer{
+    background-color: black;
+    padding: 4em 1em 4em 0;
+    text-align: right;
+    margin-top: 2em;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    color:#fff;
+}
+section.upper{
+    text-transform:uppercase;
+}
+.static{
+    position: static;
+    background-color: lightgray;
+}
+.relative{
+    position: relative;
+    top:0px;
+    left:20px;
+    background-color: lightblue;
+}
+
+.absolute{
+    position: absolute;
+    top:500px;
+    left:50px;
+    background-color:lightgreen;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;;
+    background-color: lightcoral;
+}
+
+/*
+Selectores son para identificar
+los elementos a afectar
+
+nombreElemento
+class
+id
+atributo*/
